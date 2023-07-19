@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    z-index: 100;
+    top: 0;
+    position: relative;
+}
+
+.header_center{
+    display: flex;
+    flex:1;
+    /* align-items: center; */
+    max-width: fit-content;
+    /* justify-content: space-between; */
+    font-weight: bold;
+    margin: top 2%;
+    gap: 2rem;
+    color: antiquewhite;
+}
+
+.header_logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+    /* margin-top: 5%; */
+}
