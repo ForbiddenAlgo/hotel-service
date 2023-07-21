@@ -7,6 +7,7 @@
     z-index: 100;
     top: 0;
     position: relative;
+    background-color: #11002b;
 }
 
 .header_center{
@@ -26,4 +27,34 @@
     height: 100px;
     margin-left: 2%;
     /* margin-top: 5%; */
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin-right: 2%;
+}
+
+.header_sign_button{
+    color:antiquewhite;
+    font-weight: bold;
+    background-color: transparent !important;
+    margin-right: 2% !important;
+    width: 6rem;
+    height: 5rem;
+    border-style: none;
+    text-align: center;
+}
+
+.header_button{
+    border: none;
+    text-align: center;
+    border-radius: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
 }

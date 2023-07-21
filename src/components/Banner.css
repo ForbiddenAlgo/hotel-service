@@ -1,0 +1,176 @@
+.banner{
+    /* margin-top: 7vh ; */
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/bg-1.png");
+    background-repeat: none;
+    background-color: #000;
+}
+
+.banner_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    padding-top: 15vh;
+    padding-bottom: 70px;
+    width: 800px;
+}
+
+.banner_info > button{
+    background-color: #eb8a04;
+    color: black;
+    text-transform: inherit;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 600;
+    border-style: none;
+}
+
+.banner_info > h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 672px;
+    height: 25px;
+    font-family: "lexend";
+    font-size: 20px ;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.25rem;
+     text-transform:  uppercase;
+     color: white;
+}
+.booking_div{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking{
+    height: auto;
+    width: auto;
+    margin-top: -42px;
+    border-radius: 0px;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0px 20px 90px -20px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.booking_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* .booking_vector{
+
+} */
+
+.booking_header> h4{
+    font-family: "lexend";
+    font-size: 15px ;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: auto;
+    height: auto;
+
+}
+
+/*down arrow*/
+.booking_vector2{
+    border-radius: 0px;
+}
+
+.booking_bof > h2{
+    font-family: "lexend";
+    font-size: 25px ;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.booking_bof > h4{
+    font-family: "lexend";
+    font-size: 15px ;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner_main_div{
+    padding: 20px;
+}
+
+.booking_bo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faded_text{
+    font-family: "lexend";
+    font-size: normal ;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    width: auto;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+    color: #000;
+    opacity: 0.3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.booking_button{
+    margin-bottom: -78px;
+    /* margin-right: -95px; */
+    height: 54px;
+    /* width: auto; */
+    background: #eb8a04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.booking_button>button{
+    width: inherit;
+    height: inherit;
+    font-family: "lexend";
+    font-size: normal ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #000;
+    background: inherit;
+    border: none;
+}
+
+.booking_noo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.banner_search{
+    position: absolute;
+    top: 680px;
+    z-index: 16;
+}
