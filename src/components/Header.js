@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Header.css";
 import logo from "../assets/logo.png";
 
 const Header = () => {
-    const [profile, setProfile] = useState("");
+    // const [profile, setProfile] = useState("");
   return (
     <div className='header'>
         <img className='header_logo' alt='' src={logo} />
