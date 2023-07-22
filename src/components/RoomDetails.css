@@ -1,0 +1,35 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  p {
+    margin: 8px 0;
+  }
+  
+ button {
+    background-color: #eb8a04;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  

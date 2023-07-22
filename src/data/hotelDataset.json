@@ -1,0 +1,115 @@
+{
+    "hotels": [
+      {
+        "hotelId": 1,
+        "image": "./images/room1.jpg",
+        "name": "Hotel A",
+        "location": "City X",
+        "rooms": [
+          {
+            "roomId": 101,
+            "roomType": "Single Room",
+            "price": 100,
+            "addOns": [
+              { "name": "Breakfast", "price": 20 },
+              { "name": "WiFi", "price": 10 }
+            ],
+            "availability": "available"
+          },
+          {
+            "roomId": 102,
+            "roomType": "Single Room",
+            "price": 100,
+            "addOns": [
+              { "name": "Breakfast", "price": 20 },
+              { "name": "WiFi", "price": 10 }
+            ],
+            "availability": "reserved"
+          },
+          {
+            "roomId": 1101,
+            "roomType": "Delux Room",
+            "price": 100,
+            "addOns": [
+              { "name": "Breakfast", "price": 20 },
+              { "name": "WiFi", "price": 10 }
+            ],
+            "availability": "available"
+          }
+        ]
+      },
+      {
+        "hotelId": 2,
+        "image": "./images/room2.jpg",
+        "name": "Hotel B",
+        "location": "City Y",
+        "rooms": [
+          {
+            "roomId": 201,
+            "roomType": "Double Room",
+            "price": 150,
+            "addOns": [
+              { "name": "Breakfast", "price": 25 },
+              { "name": "Parking", "price": 15 }
+            ],
+            "availability": "reserved"
+          }
+        ]
+      },
+      {
+        "hotelId": 3,
+        "image": "./images/room3.jpg",
+        "name": "Hotel B",
+        "location": "City Y",
+        "rooms": [
+          {
+            "roomId": 201,
+            "roomType": "Double Room",
+            "price": 150,
+            "addOns": [
+              { "name": "Breakfast", "price": 25 },
+              { "name": "Parking", "price": 15 }
+            ],
+            "availability": "reserved"
+          }
+        ]
+      },
+      {
+        "hotelId": 4,
+        "image": "./images/room2.jpg",
+        "name": "Hotel B",
+        "location": "City Y",
+        "rooms": [
+          {
+            "roomId": 201,
+            "roomType": "Double Room",
+            "price": 150,
+            "addOns": [
+              { "name": "Breakfast", "price": 25 },
+              { "name": "Parking", "price": 15 }
+            ],
+            "availability": "reserved"
+          }
+        ]
+      },
+      {
+        "hotelId": 1,
+        "image": "./images/room1.jpg",
+        "name": "Hotel A",
+        "location": "City X",
+        "rooms": [
+          {
+            "roomId": 101,
+            "roomType": "Single Room",
+            "price": 100,
+            "addOns": [
+              { "name": "Breakfast", "price": 20 },
+              { "name": "WiFi", "price": 10 }
+            ],
+            "availability": "available"
+          }
+        ]
+      }
+    ]
+  }
+  
