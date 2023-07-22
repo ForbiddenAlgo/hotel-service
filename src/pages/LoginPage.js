@@ -8,7 +8,7 @@ import users from '../data/users'; // Import the users.js file
 const LoginPage = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { isAuthenticated, error } = useSelector((state) => state.login);
+  // const { isAuthenticated, error } = useSelector((state) => state.login);
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
