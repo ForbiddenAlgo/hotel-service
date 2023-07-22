@@ -1,12 +1,12 @@
 import './Home.css';
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import hotelDataset from '../data/hotelDataset.json';
 
 const Home = () => {
 
-    const Navigate = useNavigate();
+    // const Navigate = useNavigate();
 
   return (
     <>
