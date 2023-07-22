@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useDispatch} from 'react-redux';
-// useSelector
+import { useDispatch, useSelector} from 'react-redux';
+
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css';
 import { loginSuccess, loginFailure } from './actions';
@@ -9,7 +9,8 @@ import users from '../data/users'; // Import the users.js file
 const LoginPage = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  // const { isAuthenticated, error } = useSelector((state) => state.login);
+  const { error } = useSelector((state) => state.login);
+   // isAuthenticated,
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
